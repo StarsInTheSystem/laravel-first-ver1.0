@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('tasks.index');
 });
+
+
+// php artisan serve at the terminal to run the app
+
+// Replace the homepage
+
+// Create a task 
+
+// Display a list of tasks
+
+// Mark a task as complete
+
+// Divide the tasks into completed and not completed section
+
+// Delete a task permanently

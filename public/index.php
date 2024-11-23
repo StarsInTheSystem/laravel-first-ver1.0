@@ -53,5 +53,3 @@ $response = $kernel->handle(
 )->send();
 
 $kernel->terminate($request, $response);
-
-/*this is a test, just typing to see if I can push this to github*/
